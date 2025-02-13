@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="bg-[#014E56]">
+    <header class="py-[40px] max-[375px]:px-[20px]">
+        <div class="container mx-auto flex items-center justify-between">
+            <img src="./img/Logo.png" alt="Logo">
+            <nav>
+                <ul class="flex gap-10 items-center max-[375px]:hidden">
+                    <li><a href="#" class="text-[#FFFFFF] text-[18px]">home</a></li>
+                    <li><a href="#" class="text-[#FFFFFF] text-[18px]">about</a></li>
+                    <button class="py-[6px] px-[33px] border-[white] border-[2px] rounded-3xl text-[white] hover:text-[black] hover:bg-[white]">contact
+                        us</button>
+                </ul>
+                <button class="text-[#FFFFFF] text-[18px] hidden max-[375px]:block"><i class="fa-solid fa-bars"></i></button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container mx-auto flex py-[100px] items-center justify-around max-[768px]:flex-wrap max-[768px]:text-center">
+                <h1 class="text-[#FFFFFF] text-[64px] font-bold max-[375px]:text-[40px]">About</h1>
+                <p class="text-white text-[18px] w-[730px]">We help companies build dynamic teams made up of top global talent. Using our network of passionate
+                    professionals we drive innovation and deliver incredible outcomes. Talented, diverse teams shape the
+                    best products and experiences. We’ll bring those teams to you.</p>
+            </div>
+        </section>
+        <section>
+            <div class="container mx-auto">
+                <h1 class="text-white text-[48px] text-center font-bold max-[768px]:text-[32px]">Meet the directors</h1>
+                <div class="flex items-center justify-between mt-[100px] max-[768px]:flex-wrap max-[768px]:justify-center max-[768px]:gap-10">
+                    <div class="w-[300px] bg-[#012F34] pt-[32px] px-24px pb-[53px] relative">
+                        <img src="./img/Human.png" alt="Human" class="mx-auto">
+                        <div class="mt-[22px]">
+                            <h1 class="text-[#79C8C7] font-semibold text-[18px] text-center">Nikita Marks</h1>
+                            <i class="text-[#FFFFFF] text-[15px] block text-center">Founder & CEO</i>
+                            <div class="text-[50px] bg-[#F67E7E] w-[56px] h-[56px] flex items-center justify-center rounded-full mx-auto absolute top-[230px] text-[#012F34] left-[130px]">+</div>
+                        </div>
+                    </div>
+                    <div class="w-[300px] bg-[#012F34] pt-[32px] px-24px pb-[53px] relative">
+                        <img src="./img/Human.png" alt="Human" class="mx-auto">
+                        <div class="mt-[22px]">
+                            <h1 class="text-[#79C8C7] font-semibold text-[18px] text-center">Nikita Marks</h1>
+                            <i class="text-[#FFFFFF] text-[15px] block text-center">Founder & CEO</i>
+                            <div class="text-[50px] bg-[#F67E7E] w-[56px] h-[56px] flex items-center justify-center rounded-full mx-auto absolute top-[230px] text-[#012F34] left-[130px]">+</div>
+                        </div>
+                    </div>
+                    <div class="w-[300px] bg-[#012F34] pt-[32px] px-24px pb-[53px] relative">
+                        <img src="./img/Human.png" alt="Human" class="mx-auto">
+                        <div class="mt-[22px]">
+                            <h1 class="text-[#79C8C7] font-semibold text-[18px] text-center">Nikita Marks</h1>
+                            <i class="text-[#FFFFFF] text-[15px] block text-center">Founder & CEO</i>
+                            <div class="text-[50px] bg-[#F67E7E] w-[56px] h-[56px] flex items-center justify-center rounded-full mx-auto absolute top-[230px] text-[#012F34] left-[130px]">+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#012F34] py-[100px] mt-[100px]">
+            <div class="container mx-auto">
+                <h1 class="text-white text-[48px] text-center font-bold max-[768px]:text-[32px]">Some of our clients</h1>
+                <div class="flex justify-between items-center mt-[100px] max-[768px]:overflow-auto max-[375px]:flex-wrap max-[375px]:px-[20px] gap-10 max-[375px]:justify-center">
+                    <img src="./img/Object.svg" alt="Logo">
+                    <img src="./img/Object.svg" alt="Logo">
+                    <img src="./img/Object.svg" alt="Logo">
+                    <img src="./img/Object.svg" alt="Logo">
+                    <img src="./img/Object.svg" alt="Logo">
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#F67E7E] py-[76px] ">
+            <div class="container mx-auto flex justify-between items-center max-[375px]:flex-wrap max-[375px]:justify-center max-[375px]:gap-5">
+                <h1 class="text-[#012F34] text-[48px] text-left font-bold max-[768px]:text-[32px]">Ready to get started?</h1>
+                <button class="py-[6px] px-[33px] border-[#012F34] border-[2px] rounded-3xl text-[#012F34] hover:text-[white] hover:bg-[#012F34]">contact
+                    us</button>
+            </div>
+        </section>
+    </main>
+    <footer class="py-[40px] bg-[#002529]">
+        <div class="container mx-auto flex items-center justify-between max-[375px]:flex-col max-[375px]:gap-5">
+            <img src="./img/Logo.png" alt="">
+            <nav>
+                <ul class="flex gap-3 items-center">
+                    <i class="fa-brands fa-facebook text-[#FFFFFF] text-[18px]"></i>
+                    <i class="fa-brands fa-facebook text-[#FFFFFF] text-[18px]"></i>
+                    <i class="fa-brands fa-facebook text-[#FFFFFF] text-[18px]"></i>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
